@@ -112,5 +112,37 @@
             $('#more-projects').fadeIn(300);
         });
     });
+	
+	$('#projects img').click(function(e) {
+		//window.open(this.src, 'new');
+		showImage(this.src);
+	});
+	function showImage(fileCallPath){
+		
+		$(".bigPictureWrapper").css("display","flex").show()
+		.center();
+		
+		
+		$(".bigPicture")
+		.html("<img src='"+fileCallPath+"' >")
+		.animate({width:'100%', height: '100%'}, 500);
+		
+		
+	  }//end fileCallPath
+	  
+	$(".bigPictureWrapper").on("click", function(e){
+		$(".bigPicture").animate({width:'0%', height: '0%'}, 500);
+		setTimeout(function(){
+		  $('.bigPictureWrapper').hide();
+		}, 500);
+	  });//end bigWrapperClick event
 
 })(jQuery);
+jQuery.fn.center = function () {
+	this.css("position","absolute");
+	this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) +
+	$(window).scrollTop()) + "px");
+	this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) +
+	$(window).scrollLeft()) + "px");
+	return this;
+}
