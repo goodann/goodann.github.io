@@ -25,15 +25,18 @@
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
+            <!--
             <li>
                 <a href="#about">자기소개</a>
+            </li>
+            -->
+            <li>
+                <a href="#education">학력</a>
             </li>
             <li>
                 <a href="#experience">경력</a>
             </li>
-            <li>
-                <a href="#education">학력</a>
-            </li>
+
             <li>
                 <a href="#projects">프로젝트</a>
             </li>
@@ -50,7 +53,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>신 승 권</h1>
-            <h2>컴퓨터 소프트웨어 개발자</h2>
+            <h2>Software Engineer</h2>
             <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
         </div>
         <!-- End #lead-content -->
@@ -65,7 +68,7 @@
         <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
-
+    <!--
     <div id="about">
         <div class="container">
 		<h2 class="heading">자기소개</h2>
@@ -93,38 +96,8 @@
             </div>
         </div>
     </div>
+    -->
     <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">경력</h2>
-        <div id="experience-timeline">
-            <div data-date="2018/04 - 2019/12">
-                <h3>매크로그래프</h3>
-                <h4>연구소 소속 연구원</h4>
-                <p>
-                    연구소 소속 개발자로, 선임연구원들의 연구에 필요한 프로그램을 개발.</br>
-					수행 프로젝트</br>
-					<a href="#project-kinect">Kinect 4대를 이용한 현실 물체를 3D공간상에 복원</a></br>
-					<a href="#project-capture">스테레오 카메라를 이용한 3D Face Capture</a></br>
-					<a href="#project-unityPlugin">홀로그램 제작을 위한 데이터 정제 및 씬 세팅을 위한 Unity3D 플러그인 제작</a></br>
-                </p>
-				
-            </div>
-
-            <div data-date="2020/01 - 2020/08">
-                <h3>펄어비스</h3>
-                <h4>컨텐츠 프로그래머</h4>
-                <p>
-                    PC기반의 온라인 MMORPG 검은사막의 컨텐츠를 개발.</br>
-					수행 프로젝트</br>
-					<a href="#project-blackDesert">검은사막</a>
-                </p>
-            </div>
-
-        </div>
-    </div>
-    <!-- End #experience -->
-
     <div id="education">
         <h2 class="heading">학력</h2>
         <div class="education-block">
@@ -136,7 +109,7 @@
 					졸업
 				</li>
 				<li>
-					중학생 때, 프로그래밍을 배우고자 진학한 고등학교, C언어와 디지털 논리 등 컴퓨터 기초에 대해 공부함
+					중학생 때, 프로그래밍을 배우고 싶어 진학한 고등학교, C언어와 디지털 논리 등 컴퓨터 기초에 대해 공부함
 				</li>
             </ul>
         </div>
@@ -158,6 +131,45 @@
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
+    <div id="experience" class="background-alt">
+        <h2 class="heading">경력</h2>
+        <div id="experience-timeline">
+            <div data-date="2018/04 - 2019/12">
+                <h3>매크로그래프</h3>
+                <h4>연구소 소속 연구원</h4>
+                <p>
+                    연구소 소속 개발자로, 선임연구원들의 연구에 필요한 프로그램을 개발.</br>
+					수행 프로젝트</br>
+					<a href="#project-kinect">Kinect 4대를 이용한 현실 물체를 3D공간상에 복원</a></br>
+					<a href="#project-capture">스테레오 카메라를 이용한 3D Face Capture</a></br>
+					<a href="#project-unityPlugin">홀로그램 제작을 위한 데이터 정제 및 씬 세팅을 위한 Unity3D 플러그인 제작</a></br>
+                </p>
+				
+            </div>
+
+            <div data-date="2020/01 - 2020/08">
+                <h3>펄어비스</h3>
+                <h4>라이브 컨텐츠 프로그래머</h4>
+                <p>
+                    PC기반의 온라인 MMORPG 검은사막의 컨텐츠를 개발.</br>
+					수행 프로젝트</br>
+					<a href="#project-blackDesert">검은사막</a>
+                </p>
+            </div>
+
+            <div data-date="2021/01 - 재직 중">
+                <h3>엔씨소프트</h3>
+                <h4>라이브 서버 프로그래머</h4>
+                <p>
+                    PC기반의 온라인 MMORPG 리니지의 컨텐츠를 개발.</br>
+					수행 프로젝트</br>
+					<a href="#project-lineage">리니지</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">프로젝트</h2>
@@ -171,7 +183,7 @@
                     <div id="project-info" class="project-info">
                         <h3>테일즈위버 딜레이 계산기 + 메모리 최적화 및 타이머 프로그램</h3>
                         <p>
-							사용기술 : C++, STL, MFC
+							사용기술 : C++, WINAPI, MFC
 						</p>
 						<p>
                             테일즈 위버 게임을 하는 중, 일정메모리량 이상의 메모리를 테일즈 위버가 사용할 경우 테일즈위버가 종료되는 현상이 커뮤니티를 중심으로 발견되어 이를 해결하려고 주기적으로 테일즈위버의 메모리 사용량을 줄이는 프로그램을 제작, 그 프로그램에 게임에 필요한 딜레이 계산, 보스 재입장 타이머 기능 등 부가기능을 추가하는 프로그램을 제작하였다.
@@ -197,9 +209,9 @@
                 </div>
 				<div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/offRacing1.png" class="click_img"/></br>
-						<img src="images/offRacing2.png" class="click_img"/></br>
-						<img src="images/offRacing3.png" class="click_img"/></br>
+                        <img src="images/offRacing1.png"/></br>
+						<img src="images/offRacing2.png"/></br>
+						<img src="images/offRacing3.png"/></br>
                     </div>
                     <!-- End .project-image -->
                     <div id="project-offRacing" class="project-info">
@@ -246,7 +258,7 @@
                         </p>
 						<p>
 							프롬프트 기반의 여러 프로그램으로 나뉘어진 3D얼굴 복원 시스템을 NodeBase의 GUI프로그램으로 이식하여 원하는 프로세스를 원하는 순서대로 진행가능하도록 제작하였다.</br>
-							연속된 시퀀스 이미지를 불러와서 해당 이미지상의 같은 지점이 이전/다음 이미지에서 어디에 위치하는지 추적하는 프로그램을 제작하였다. OpenCV의 기능을 이용하여 자동적으로 추적하는 기능읋 넣었고, 이를 보완하여 사용자가 수동으로 추적 하는기능을 추가하였고, 깊이 이미지와 카메라 파라미터가 있으면 3D공간상으로도 점 추적을 볼 수 있도록 추가하였다.</br>
+							연속된 시퀀스 이미지를 불러와서 해당 이미지상의 같은 지점이 이전/다음 이미지에서 어디에 위치하는지 추적하는 프로그램을 제작하였다. OpenCV의 기능을 이용하여 자동적으로 추적하는 기능을 넣었고, 이를 보완하여 사용자가 수동으로 추적 하는기능을 추가하였고, 깊이 이미지와 카메라 파라미터가 있으면 3D공간상으로도 점 추적을 볼 수 있도록 추가하였다.</br>
 							복원된 Mesh를 표준모델로 변환할때 사용되는 프로그램 Wrap3D에서 사용하는 Point데이터를 여러 시퀀스 이미지에서 Point Tracking에서 사용할 수 있도록 2D-3D간 Point Projection하는 프로그램 개발하여 위의 프로그램과 연동하여, Wrap3D프로그램에서 여러 이미지에서 복원을 좀더 용이하게 하도록 프로그램을 제작하였다.
 						</p>
                     </div>
@@ -264,33 +276,106 @@
 						</p>
                         <p>
                             Maya에서 만든 Mesh를 유니티 씬에 좌표계를 변환하여 원하는데로 입력되도록 작업하였다.</br>
-							Point Cloud 데이터를 유니티 씬에 입력되도록 제작하였다. 유니티에서 기본적으로 Points를 그리는 기능이 없어서 버텍스 데이터만 존재하는 데이터를 보여주도록 셰이더를 만들었다.</br>
-							세팅된 씬 데이터를 홀로그램 제작을 위한 input Data(XML)로 정제하여 출력하도록 플러그인 작성하였다.
+							Point Cloud 데이터를 유니티 씬에 입력되도록 제작하였다. 유니티에서 기본적으로 Points를 그리는 기능이 없어서 버텍스 데이터만 존재하는 데이터를 보여주도록 셰이더를 제작</br>
+							세팅된 씬 데이터를 홀로그램 제작을 위한 input Data(XML)로 정제하여 출력하도록 플러그인 작성
                         </p>
                     </div>
                     <!-- End .project-info -->
                 </div>
 				<div class="project shadow-large">
-					
                     <div class="project-image">
                         <img src="images/black1.jpg" /></br>
-						<img src="images/black2.jpg" /></br>
-						<img src="images/black3.jpg" /></br>
-						<img src="images/black4.jpg" /></br>
+                        <img src="images/black2.jpg" /></br>
+                        <img src="images/black3.jpg" /></br>
+                        <img src="images/black4.jpg" /></br>
                     </div>
                     <!-- End .project-image -->
                     <div id="project-blackDesert" class="project-info">
-                        <h3>검은사막 컨텐츠 개발</h3>
+                        <h3>온라인 게임 서버 개발</h3>
+                        <h4>검은사막 컨텐츠 개발</h4>
                         <p>
 							사용기술: C++, 서버, 클라이언트, Lua, UI, SQL
 						</p>
 						<p>
-                            PC/Console에서 서비스 중인 온라인 MMORPG 검은사막의 컨텐츠를 기획에 맞추어 구현하는 역할을 하였다.</br>
-							검은사막 기술창 리뉴얼에 중반부 이후 대부분의 클라이언트 및 UI스크립트 작업을 하였다.</br>
-							검은사막 모험일지의 추가기능과 알림 관련하여 클라이언트 및 UI스크립트 작업을 하였다.</br>
-							시즌서버 보상을 수령하는데 있어 관련된 서버, 클라이언트, DB, UI 작업을 진행하였다.</br>
-							섀도우아레나 말풍선 UI 작업을 하였다.</br>
-							기타 버그 수정들을 했다.
+                            PC/Console에서 서비스 중인 온라인 MMORPG 검은사막의 컨텐츠를 기획에 맞추어 구현하는 역할</br>
+							검은사막 기술창 리뉴얼</br>
+                            - 기본 씬 세팅 및 기본 UI틀만 있는 상태에서 이후 대부분의 클라이언트 및 UI 스크립트 추가 및 수정</br>
+							검은사막 모험일지
+                            - 기능및 알림 관련하여 클라이언트 및 UI스크립트 작업</br>
+							시즌서버
+                            - 보상을 수령 관련  서버, 클라이언트, DB, UI 작업</br>
+							섀도우아레나 
+                            - 말풍선 UI 작업</br>
+							기타 버그 수정 등등
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image" >
+                        
+                        <img src="images/lin_collection.jpg" /></br>
+                        <img src="images/prob.jpg" /></br>
+                        <!-- <img src="images/black3.jpg" /></br>
+                        <img src="images/black4.jpg" /></br>
+                        <img src="images/black4.jpg" /></br>
+                        <img src="images/black4.jpg" /></br>
+                        <img src="images/black4.jpg" /></br> -->
+                        
+                    </div>
+                    <div id="project-lineage" class="project-info">
+
+                        <h3>온라인 게임 서버 개발</h3>
+                        <h4>리니지 서버 개발</h4>
+                        <p>
+                            사용기술: C++, 서버, Lua, MSSQL, google protobuf
+                        </p>
+                        <p>
+                            PC로 서비스 중인 온라인 MMORPG 리니지의 컨텐츠를 기획에 맞추어 구현하는 역할</br>
+
+                            2021년 클래스 리부트</br>
+                            - 기존 스킬 변경 부분 작업</br>
+                            <a href="https://lineage.plaync.com/powerbook/wiki/%ED%99%95%EB%A5%A0%20%EB%B3%B4%EA%B8%B0%20UI%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8">인 게임 확률공개 시스템</a> 작업</br>
+                            - 확률 테스트 용 명령어 작성</br>
+                            - 인 게임 확률 공개 시스템 작업</br>
+                            - 스크립트를 이용한 확률계산 뿐만 아니라 코드에 실제 적용된 확률도 존재하여, 서버가 실행 될 때 확률을 표시해야 되는 경우에 대한 매개변수값에 따라 유저가 적용받는 확률을 시뮬레이션 하여 json파일로 작성하여 클라이언트 데이터로 전달하여 클라이언트에서 표시 될 수 있도록 개발</br>
+                            
+                            보스몬스터 변신 중 컷신 재생 기능 추가</br>
+                            - 기존에 있던, 컷씬기능과 변신 기능을 연동하여 사용 할 수 있도록 하고 연동하면서 컷 씬이 진행되는 동안의 몬스터 처리에 대한 부분 개발</br>
+                            
+                            시장 게시판 기능 추가(현재 제거됨)</br>
+                            - 시장을 이용하는 유저를 위하여 웹서버를 이용한 메신저 기능 개발</br>
+                            - 웹서버-서버-클라이언트 간 프로토콜 작성 및 서버부분 작성</br>
+                            
+                            <a href="https://lineage.plaync.com/powerbook/wiki/%EC%8B%A4%EB%A0%89%ED%8B%B0%EC%8A%A4%EC%9D%98%20%EC%A0%84%EC%8B%9C%ED%9A%8C">기간 컬렉션 기능(실렉티스의 전시회)</a> 추가
+                            - 서버, DB스키마, DB쿼리, 프로토콜 작성
+
+                            중국 라이브 서비스 담당</br>
+                            - 중국 텐센트의 채팅 검열 시스템과 인게임 채팅 시스템의 연동</br>
+                            - 텐센트 운영 툴 명령어 기능 개발</br>
+                            - 기존에 존재한 배틀패스에 새로운 카테고리의 배틀패스 추가 </br>
+                            - nmap을 이용한 보안 테스트에서 보완이 필요한 부분 수정</br>
+                            - 마법인형 확률 천장 시스템 개발</br>
+                            
+                            <a href="https://lineage.plaync.com/powerbook/wiki/2023%20%EC%84%B1%EC%9E%A5%20%EB%A9%94%EB%A6%AC%ED%8A%B8%20%EA%B0%9C%ED%8E%B8">고레벨 유저를 위한 추가 보상</a> 관련 개발
+                            - 모든 서버에 동시에 새울 수 있는 버프동상 개발</br>
+                            - 일 별로 횟수 제한이 있는 제자리 부활 및 텔레포트 기능 개발</br>
+
+                            2023 클래스 리부트</br>
+                            - 신스킬, 구 스킬 기능 추가 등의 서버 부분 담당</br>
+
+                            메모리 사용량 체크를 위한 카운터 및 로그기능 추가</br>
+                            - 실제 Object나 내부타이머등의 갯수 체크 및 로깅 기능 추가</br>
+
+                            확률 공개 웹페이지 자동화 기능 개발</br>
+                            - 웹 상에 확률을 공개 함에 있어, 인게임의 실제 확률과 자동으로 연동되도록 하기 위해 플랫폼팀의 요구대로 json형태로 확률을 정제하는 작업 및 확률 검증을 위한 추가 명령어 개발</br>
+
+                            서브 프로젝트(미공개) 개발</br>
+                            - 확률 에 관련된 시스템 구축 시 확률 공개기능의 추가가 용이하도록 확률고 관련된 기반 작업</br>
+                            - 채팅 시스템 작업</br>
+                            - 인챈트 관련 작업</br>
+
                         </p>
                     </div>
                     <!-- End .project-info -->
@@ -302,7 +387,7 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">사용 가능 기술</h2>
+        <h2 class="heading">Skills</h2>
 		<ul>
 			<ul>
 			<li>C++</li>
@@ -319,6 +404,10 @@
 				<li>MFC</li>
 				<li>DirectX</li>
 				<li>Unity</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>MsSQL</li>
+                <li>Lua</li>
 			</ul>
 		</ul>
     </div>
@@ -340,7 +429,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 신승권
+                        Copyright &copy; 2025 신승권
                     </p>
                 </div>
                 <div class="col-sm-2 top">
